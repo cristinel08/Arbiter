@@ -1,0 +1,138 @@
+-- Simple OR gate design
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity ARB is
+port(
+  clk: in std_logic;
+  rst: in std_logic;
+  cmd: in std_logic;
+  req: in std_logic_vector(2 downto 0);
+  num: out std_logic_vector(2 downto 0));
+end ARB;
+
+architecture rtl of ARB is
+signal internal_num: std_logic_vector(2 downto 0);
+signal N0, N1, N2: signed(2 downto 0) := "000";
+type state is (
+				Init, 
+  				GRANT_RESOURCE,
+                UPDATE_RESOURCE, 
+                S0, 
+                S1, 
+                S2
+               );
+signal reqState : state;
+begin
+  process(rst, clk) is
+  begin
+  if rst='1' then
+    	reqState <= Init;
+        N0 <= "000";
+        N1 <= "000";
+        N2 <= "000";
+    elsif (clk'event and clk='1') then
+    	case reqState is
+        	when INIT =>
+            	reqState <= GRANT_RESOURCE;
+            when GRANT_RESOURCE=>
+            	if cmd='1' then
+                	reqState <= UPDATE_RESOURCE;
+                end if;
+            when UPDATE_RESOURCE =>
+            	case req is
+                	when "001" =>
+                    	reqState <= S0;
+                    when "010" =>
+                    	reqState <= S1;
+                    when "011" =>
+                    	if (N1 < N0) then
+                        	reqState <= S1;
+                            N1 <= N1 + 1;
+                            N0 <= N0 - 1;
+                        else
+                            N0 <= N1 - 1;
+                            N1 <= N0 + 1;
+                        	reqState <= S0;
+                        end if;
+                   	when "100" =>
+                    	reqState <= S2;
+                    when "101" =>
+                    	if (N2 < N0) then
+                        	reqState <= S2;
+                          	N2 <= N2 + 1;
+                            N0 <= N0 - 1;
+                        else
+                          	N2 <= N2 - 1;
+                            N1 <= N1 + 1;
+                        	reqState <= S0;
+                        end if;
+                    when "110" =>
+                    	if(N2 < N1) then
+                        	reqState <= S2;
+                            N2 <= N2 + 1;
+                            N1 <= N1 - 1;
+                        else 
+                        	reqState <= S1;
+                            N2 <= N2 - 1;
+                            N1 <= N1 + 1;
+                       	end if;
+                    when "111" =>
+                    	if (N2 < N1 and N2 < N0) then
+                        	reqState <= S2;
+                            N2 <= N2 + 1;
+                            N1 <= N1 - 1;
+                            N0 <= N0 - 1;
+                        elsif (N1 < N2 and N1 < N0) then
+                        	reqState <= S1;
+                            N2 <= N2 - 1;
+                            N1 <= N1 + 1;
+                            N0 <= N0 - 1;
+                        else
+                        	reqState <= S0;
+                            N2 <= N2 - 1;
+                            N1 <= N1 - 1;
+                            N0 <= N0 + 1;
+                        end if;
+                    when others =>
+                end case;
+            when others =>
+            	reqState <= GRANT_RESOURCE;
+        end case;
+		if (N2 = "100" or
+          N2 = "011") then
+              N2 <= N2;   
+        end if;
+        if (N1 = "100" or
+            N1 = "011") then
+                N1 <= N1;
+        end if;
+        if (N0 = "100" or
+            N0 = "011") then
+                N0 <= N0;
+        end if;  
+    end if;
+  end process;
+  
+  process(reqState) is
+  begin
+  	case reqState is
+        when Init =>
+        	internal_num <= "000";
+            num <= "000"; 
+    	when S0 =>
+        	num <= "001";
+        when S1 =>
+        	num <= "010";
+        when S2 =>
+        	num <= "100";
+         when GRANT_RESOURCE =>
+            num <= "000";
+        when UPDATE_RESOURCE =>
+        	num <= "000";
+    end case; 
+  end process;
+  
+end rtl;
+

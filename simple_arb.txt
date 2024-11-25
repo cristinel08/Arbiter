@@ -1,0 +1,44 @@
+
+
+library IEEE, 
+--accellera_ovl_vhdl;
+use IEEE.std_logic_1164.all;
+--use accellera_ovl_vhdl.std_ovl_components.all; 
+
+entity arb is
+    port(  cmd,clk,rst_n : in std_logic;
+           req         : in std_logic_vector(0 to 2);
+           gnt         : inout std_logic_vector(0 to 2));
+end arb;
+
+architecture rtl of arb is
+
+	signal enable_ovl : std_logic;
+	signal gnt_temp : std_logic_vector(0 to 2);
+	signal flag : std_logic_vector(0 to 2):="111";
+	signal fire : std_logic_vector(2 downto 0);
+
+begin
+
+	process(clk)
+	begin
+		if clk'event and clk='1' then
+        if cmd = '1' then
+            case req is
+                when "001" => gnt_temp <= "001";
+                when "010" => gnt_temp <= "010";
+                when "011" => gnt_temp <= "001";
+                when "100" => gnt_temp <= "100";
+                when "101" => gnt_temp <= "001";
+                when "110" => gnt_temp <= "010";
+                when "111" => gnt_temp <= "001";
+                when others => gnt_temp <= "000";
+           end case;
+        else
+           gnt_temp <= "000";
+        end if;
+        gnt <= gnt_temp;
+		end if;
+	end process;
+			 
+ end;

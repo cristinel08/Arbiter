@@ -1,0 +1,456 @@
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity driver
+# -- Compiling architecture bhv of driver
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/protocol_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity protocol_checker
+# -- Compiling architecture bhv of protocol_checker
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/testbench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture tb of testbench
+# 
+# 
+# 5 compiles, 0 failed with no errors.
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(60): Target of signal assignment is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(61): Target of signal assignment is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(63): Target of signal assignment is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(64): Target of signal assignment is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(119): (vcom-1136) Unknown identifier "addN0".
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(119): Expression is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(121): (vcom-1136) Unknown identifier "addN0".
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(121): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(136): (vcom-1136) Unknown identifier "addN1".
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(136): Expression is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(138): (vcom-1136) Unknown identifier "addN1".
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(138): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(153): (vcom-1136) Unknown identifier "addN2".
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(153): Expression is not a signal.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(155): (vcom-1136) Unknown identifier "addN2".
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(155): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(196): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(70): Signal "addN2" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(71): Signal "addN0" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(74): Signal "addN0" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(75): Signal "addN2" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(80): Signal "addN2" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(81): Signal "addN1" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(84): Signal "addN2" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(85): Signal "addN1" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(91): Signal "addN0" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(92): Signal "addN1" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(93): Signal "addN2" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(96): Signal "addN0" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(97): Signal "addN1" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(98): Signal "addN2" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(101): Signal "addN0" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(102): Signal "addN1" cannot be target of variable assignment statement.
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(103): Signal "addN2" cannot be target of variable assignment statement.
+# ** Note: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(197): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 21:02:44 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(tb)
+# Loading work.arb(rtl)
+# Loading work.property_checker(bhv)
+# Loading work.protocol_checker(bhv)
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.driver(bhv)
+add wave -position insertpoint sim:/testbench/*
+run
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# ** Warning: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(37): (vcom-1272) Length of expected is 2; length of actual is 3.
+# ** Warning: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(38): (vcom-1272) Length of expected is 2; length of actual is 3.
+# ** Warning: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(39): (vcom-1272) Length of expected is 2; length of actual is 3.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 625 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 625 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 625 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 625 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 625 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1205 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1525 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1825 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1945 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1945 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2045 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2045 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2105 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2105 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2545 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2585 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2585 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2985 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 3025 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3025 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 3205 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 3345 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3345 ns  Iteration: 2  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 3725 ns  Iteration: 1  Instance: /testbench/DUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 3725 ns  Iteration: 2  Instance: /testbench/DUT
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint sim:/testbench/prp_checker/*
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_before2clkCycle'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_delay1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_delay2'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_delay3'. 
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity property_checker
+# -- Compiling architecture bhv of property_checker
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.property_checker(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(206): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity driver
+# -- Compiling architecture bhv of driver
+# ** Error: D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd(82): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
+# ** Note: D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd(92): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity driver
+# -- Compiling architecture bhv of driver
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.driver(bhv)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
