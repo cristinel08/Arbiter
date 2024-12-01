@@ -1,456 +1,768 @@
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package MATH_REAL
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_textio
-# -- Compiling entity driver
-# -- Compiling architecture bhv of driver
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/protocol_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity protocol_checker
-# -- Compiling architecture bhv of protocol_checker
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/testbench.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity testbench
-# -- Compiling architecture tb of testbench
-# 
-# 
-# 5 compiles, 0 failed with no errors.
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(60): Target of signal assignment is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(61): Target of signal assignment is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(63): Target of signal assignment is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(64): Target of signal assignment is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(119): (vcom-1136) Unknown identifier "addN0".
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(119): Expression is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(121): (vcom-1136) Unknown identifier "addN0".
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(121): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(136): (vcom-1136) Unknown identifier "addN1".
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(136): Expression is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(138): (vcom-1136) Unknown identifier "addN1".
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(138): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(153): (vcom-1136) Unknown identifier "addN2".
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(153): Expression is not a signal.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(155): (vcom-1136) Unknown identifier "addN2".
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(155): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Note: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(196): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(70): Signal "addN2" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(71): Signal "addN0" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(74): Signal "addN0" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(75): Signal "addN2" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(80): Signal "addN2" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(81): Signal "addN1" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(84): Signal "addN2" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(85): Signal "addN1" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(91): Signal "addN0" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(92): Signal "addN1" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(93): Signal "addN2" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(96): Signal "addN0" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(97): Signal "addN1" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(98): Signal "addN2" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(101): Signal "addN0" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(102): Signal "addN1" cannot be target of variable assignment statement.
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(103): Signal "addN2" cannot be target of variable assignment statement.
-# ** Note: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(197): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-vsim -gui work.testbench
-# vsim -gui work.testbench 
-# Start time: 21:02:44 on Nov 25,2024
+vsim -gui work.arb_tb_fuzzer
+# vsim -gui work.arb_tb_fuzzer 
+# Start time: 20:43:26 on Dec 01,2024
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.testbench(tb)
-# Loading work.arb(rtl)
-# Loading work.property_checker(bhv)
-# Loading work.protocol_checker(bhv)
-# Loading ieee.math_real(body)
+# Loading std.env(body)
 # Loading ieee.std_logic_textio(body)
-# Loading work.driver(bhv)
-add wave -position insertpoint sim:/testbench/*
-run
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# ** Warning: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(37): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(38): (vcom-1272) Length of expected is 2; length of actual is 3.
-# ** Warning: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(39): (vcom-1272) Length of expected is 2; length of actual is 3.
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb_tb_fuzzer(behavior)
 # Loading work.arb(rtl)
+# WARNING: No extended dataflow license exists
+restart
 run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 625 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 625 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 625 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 625 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 625 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 1205 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 1525 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 1825 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 1945 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 1945 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 2045 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 2045 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 2105 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 2105 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 2545 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 2585 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 2585 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 2985 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 3025 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 3025 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 3205 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 3345 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 3345 ns  Iteration: 2  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
-#    Time: 3725 ns  Iteration: 1  Instance: /testbench/DUT
-# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 3725 ns  Iteration: 2  Instance: /testbench/DUT
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# ** Note: Processing line: 1111
+#    Time: 0 ps  Iteration: 0  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 0 ps  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 20 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 40 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1110
+#    Time: 60 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 80 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1100
+#    Time: 340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 580 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 600 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 620 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 640 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 660 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 680 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 700 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 720 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 740 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 760 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 780 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 800 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 820 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 840 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 860 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 880 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 900 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 920 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 940 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 960 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 980 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1 us  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1020 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1040 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1060 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1080 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 1240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# Break in Process stim_proc at D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd line 100
+add wave -position end sim:/arb_tb_fuzzer/*
+restart
+run
+# ** Note: Processing line: 1111
+#    Time: 0 ps  Iteration: 0  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 0 ps  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 20 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 40 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1110
+#    Time: 60 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 80 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1100
+#    Time: 340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 580 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 600 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 620 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 640 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 660 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 680 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 700 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 720 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 740 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 760 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 780 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 800 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 820 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 840 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 860 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 880 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 900 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 920 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 940 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 960 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 980 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1 us  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1020 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1040 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1060 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1080 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 1240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# Break in Process stim_proc at D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd line 100
+# vcom -work work -2008 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.arb(rtl)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.arb(rtl)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-add wave -position insertpoint sim:/testbench/prp_checker/*
-restart
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_before2clkCycle'. 
-# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_delay1'. 
-# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_delay2'. 
-# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/prp_checker/cmd_delay3'. 
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/property_checker_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity property_checker
-# -- Compiling architecture bhv of property_checker
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.property_checker(bhv)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(30): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
-# ** Note: D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd(206): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ARB
-# -- Compiling architecture rtl of ARB
-# 
-# 
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.arb(rtl)
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package MATH_REAL
-# -- Loading package NUMERIC_STD
+# -- Loading package ENV
 # -- Loading package std_logic_textio
-# -- Compiling entity driver
-# -- Compiling architecture bhv of driver
-# ** Error: D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd(82): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
-# ** Note: D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd(92): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/driver_tobe_completed.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package MATH_REAL
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_textio
-# -- Compiling entity driver
-# -- Compiling architecture bhv of driver
+# -- Compiling entity arb_tb_fuzzer
+# -- Compiling architecture behavior of arb_tb_fuzzer
 # 
 # 
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.driver(bhv)
+# Loading work.arb_tb_fuzzer(behavior)
 run
 # GetModuleFileName: The specified module could not be found.
 # 
 # 
+# ** Note: Processing line: 1111
+#    Time: 0 ps  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 20 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 40 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 60 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1110
+#    Time: 80 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1100
+#    Time: 360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 580 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 600 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 620 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 640 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 660 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 680 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 700 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 720 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 740 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 760 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 780 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 800 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 820 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 840 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 860 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 880 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 900 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 920 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 940 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 960 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 980 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1 us  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1020 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1040 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1060 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1080 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 1260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1580 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# Break in Process stim_proc at D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd line 100
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: Processing line: 1111
+#    Time: 0 ps  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 20 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 40 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 60 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 80 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1100
+#    Time: 360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 580 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 600 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 620 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 640 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 660 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 680 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 700 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 720 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 740 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 760 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 780 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 800 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 820 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 840 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 860 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 880 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 900 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 920 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 940 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 960 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 980 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1 us  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1020 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1040 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1060 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1080 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1100 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1120 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1140 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1160 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1180 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1200 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1220 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1240 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1011
+#    Time: 1260 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1280 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1111
+#    Time: 1300 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1320 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1340 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1360 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1380 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1400 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1420 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1440 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1460 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1480 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1101
+#    Time: 1500 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1520 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 1001
+#    Time: 1540 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: 0000
+#    Time: 1560 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# ** Note: Processing line: Done
+#    Time: 1580 ns  Iteration: 1  Instance: /arb_tb_fuzzer
+# Break in Process stim_proc at D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd line 100
+# vcom -work work -2008 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Loading package std_logic_textio
+# -- Compiling entity arb_tb_fuzzer
+# -- Compiling architecture behavior of arb_tb_fuzzer
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb_tb_fuzzer(behavior)
+# Loading work.arb(rtl)
+run -continue
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break in Process stim_proc at D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd line 100
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break in Process stim_proc at D:/ESISAR/IMESS/VHDL_Verification/arb_tb_fuzzer.vhd line 100
+restart
+# Loading work.arb_tb_fuzzer(behavior)
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none D:/ESISAR/IMESS/VHDL_Verification/VerifyOnQuesta/arb_design.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ARB
+# -- Compiling architecture rtl of ARB
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.arb(rtl)
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run -all
+# Break in Process stim_proc at ../arb_tb_fuzzer.vhd line 100
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break in Process stim_proc at ../arb_tb_fuzzer.vhd line 100
+# End time: 21:08:29 on Dec 01,2024, Elapsed time: 0:25:03
+# Errors: 0, Warnings: 1

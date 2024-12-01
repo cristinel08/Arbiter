@@ -12,34 +12,30 @@ ENTITY arb_tb_fuzzer IS
 END arb_tb_fuzzer;
  
 ARCHITECTURE behavior OF arb_tb_fuzzer IS 
- 
- 
-    COMPONENT arb
+    COMPONENT ARB
     PORT(
          clk : IN  std_logic;
          cmd : IN  std_logic;
-         rst_n : IN  std_logic;
-         req : IN  std_logic_vector(0 to 2);
-
-         gnt : INOUT  std_logic_vector(0 to 2);
-			   N1 : out signed(4 downto 0);
-			   N2 : out signed(4 downto 0);
-			   N3 : out signed(4 downto 0);
-        );
+         rst : IN  std_logic;
+         req : IN  std_logic_vector(2 downto 0);
+         gnt : INOUT  std_logic_vector(2 downto 0);
+		 n0_out : out signed(1 downto 0);
+		 n1_out : out signed(1 downto 0);
+		 n2_out : out signed(1 downto 0));
     END COMPONENT;
     
 
    --Inputs
    signal clk : std_logic := '0';
    signal cmd : std_logic := '0';
-   signal rst_n : std_logic := '1';
-   signal req : std_logic_vector(0 to 2) := (others => '0');
+   signal rst : std_logic := '0';
+   signal req : std_logic_vector(2 downto 0) := (others => '0');
    signal eof1 : integer;
 	--BiDirs
-   signal gnt : std_logic_vector(0 to 2);
-	signal N1 : signed(4 downto 0);
-	signal N2 : signed(4 downto 0);
-	signal N3 : signed(4 downto 0);
+   signal gnt : std_logic_vector(2 downto 0);
+	signal n0_out : signed(1 downto 0);
+	signal n1_out : signed(1 downto 0);
+	signal n2_out : signed(1 downto 0);
 
    -- Clock period definitions
    constant clk_period : time := 20 ns;
@@ -47,24 +43,24 @@ ARCHITECTURE behavior OF arb_tb_fuzzer IS
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: arb PORT MAP (
+   uut: ARB PORT MAP (
           clk => clk,
           cmd => cmd,
-          rst_n => rst_n,
+          rst => rst,
           req => req,
-			 N1 => N1,
-			 N2 => N2,
-			 N3 => N3,
-          gnt => gnt
+          gnt => gnt,
+		  n0_out => n0_out,
+		  n1_out => n1_out,
+		  n2_out => n2_out
         );
 
    -- Clock process definitions
    clk_process :process
    begin
-		clk <= '0';
+		clk <= not clk;
 		wait for clk_period/2;
-		clk <= '1';
-		wait for clk_period/2;
+		-- clk <= '1';
+		-- wait for clk_period/2;
    end process;
  
 
@@ -80,39 +76,25 @@ BEGIN
    begin	
 
 	while (not endfile(logfile))  loop
-		
-		rst_n <= '1';
-
+		wait until clk = '1';	
+		rst <= '0';
 		readline(logfile, row); 
-		
-	        if  (row.all = string'("Done")) then
-
-			
-			if (to_integer(n3) <= to_integer(n2) and to_integer(n3) <= to_integer(n1)) then
-				write(row1,to_integer(n3));
-			elsif to_integer(n2) <= to_integer(n1) then
-				write(row1,to_integer(n2));
+		-- report "Processing line: " & row.all;
+		if  (row.all = string'("Done")) then
+			if (to_integer(n2_out) <= to_integer(n1_out) and to_integer(n2_out) <= to_integer(n0_out)) then
+				write(row1,to_integer(n2_out));
+			elsif to_integer(n1_out) <= to_integer(n0_out) then
+				write(row1,to_integer(n1_out));
 			else
-				write(row1,to_integer(n1));
+				write(row1,to_integer(n0_out));
 			end if;
-			writeline(logfile1,row1);
-			
-			
-			rst_n <= '0';
-			
-			
-	
-		 else 	
-
-			  read (row,buf1);
-			  
-			  cmd <= buf1(3);
-			  req <= buf1(2 downto 0);
-
-			
-		 end if;	
-		wait until clk = '1';
-		
+			writeline(logfile1, row1);				
+			rst <= '1';	
+		else 	
+				read (row, buf1);
+				cmd <= buf1(3);
+				req <= buf1(2 downto 0);			
+		end if;		
 	end loop;
 	wait until clk = '1';
 	stop;

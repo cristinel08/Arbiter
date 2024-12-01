@@ -17,7 +17,7 @@ end ARB;
 
 architecture rtl of ARB is
 signal internal_gnt, internal_req: std_logic_vector(2 downto 0) := "000";
-signal N0, N1, N2: signed(1 downto 0) := "01";
+signal N0, N1, N2: signed(1 downto 0) := "00";
 type state is (
                 Init, 
                 GRANT_RESOURCE,
@@ -28,15 +28,14 @@ type state is (
                );
 signal reqState : state;
 signal addN0, addN1, addN2,modN0, modN1, modN2 : std_logic:= '0';
+signal enableAdd : std_logic := '0';
 begin
   process(rst, clk) is
 
   begin
     if (rst = '1') then
         reqState <= GRANT_RESOURCE;
-        -- N0 <= "000";
-        -- N1 <= "000";
-        -- N2 <= "000";
+        enableAdd <= '0';
     elsif (clk'event and clk='1') then
     	case reqState is
         	when INIT =>
@@ -45,6 +44,7 @@ begin
             when GRANT_RESOURCE=>
             	if cmd = '1' and not(req = "000") then
                 	internal_req <= req;
+                    enableAdd <= '1';
                 	reqState <= UPDATE_RESOURCE;
                 end if;
             when UPDATE_RESOURCE =>
@@ -126,53 +126,65 @@ begin
     end if;
   end process;
 
-  process(modN0) is
+  process(modN0, rst) is
   begin
-    if (addN0 = '1') then
-        if (N0 = "01") then
-            N0 <= N0;
+    if (rst = '1') then
+        N0 <= "00";
+    elsif enableAdd = '1' then 
+        if (addN0 = '1') then
+            if (N0 = "01") then
+                N0 <= N0;
+            else
+                N0 <= N0 + 1;
+            end if;
         else
-            N0 <= N0 + 1;
-        end if;
-    else
-        if (N0 = "10") then
-            N0 <= N0;
-        else
-            N0 <= N0 - 1;
+            if (N0 = "10") then
+                N0 <= N0;
+            else
+                N0 <= N0 - 1;
+            end if;
         end if;
     end if;
   end process;
 
-process(modN1) is
+process(modN1, rst) is
   begin
-    if (addN1 = '1') then
-        if (N1 = "01") then
-            N1 <= N1;
+    if (rst = '1') then
+        N1 <= "00";
+    elsif (enableAdd = '1') then
+        if (addN1 = '1') then
+            if (N1 = "01") then
+                N1 <= N1;
+            else
+                N1 <= N1 + 1;
+            end if;
         else
-            N1 <= N1 + 1;
-        end if;
-    else
-        if (N1 = "10") then
-            N1 <= N1;
-        else
-            N1 <= N1 - 1;
+            if (N1 = "10") then
+                N1 <= N1;
+            else
+                N1 <= N1 - 1;
+            end if;
         end if;
     end if;
   end process;
 
-process(modN2) is
+process(modN2, rst) is
   begin
-    if (addN2 = '1') then
-        if (N2 = "01") then
-            N2 <= N2;
+    if rst = '1' then
+        N2 <= "00";
+    elsif enableAdd = '1' then
+        if (addN2 = '1') then
+            if (N2 = "01") then
+                N2 <= N2;
+            else
+                N2 <= N2 + 1;
+            end if;
         else
-            N2 <= N2 + 1;
-        end if;
-    else
-        if (N2 = "10") then
-            N2 <= N2;
-        else
-            N2 <= N2 - 1;
+            if (N2 = "10") then
+                N2 <= N2;
+            else
+                N2 <= N2 - 1;
+            end if;
         end if;
     end if;
   end process;

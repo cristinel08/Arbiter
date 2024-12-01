@@ -1,0 +1,14 @@
+# OpenFile ./modelsim_command.do
+# Break key hit
+# Break key hit
+do modelsim_command.do
+# vsim -voptargs="+acc" work.arb_tb_fuzzer 
+# Start time: 20:19:17 on Dec 01,2024
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./modelsim_command.do PAUSED at line 1
+# End time: 20:19:44 on Dec 01,2024, Elapsed time: 0:00:27
+# Errors: 1, Warnings: 0

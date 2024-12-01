@@ -4,12 +4,12 @@ import subprocess
 import random
 
 COUNT_MAX = 50
-CHANCE_OF_CONCATENATION = 2
-MIN_WANTED = -15
+CHANCE_OF_CONCATENATION = 3
+MIN_WANTED = -3
 
 # 1st compilation (to be sure the testbench and the arbiter are well compiled)
-ls = subprocess.run(['/Questa/questasim/bin/vcom', '-work', '{lib}', '{dir}/arb_tb_fuzzer.vhd'])
-ls = subprocess.run(['/Questa/questasim/bin/vcom', '-work', '{lib}', '{dir}/arb.vhd'])
+ls = subprocess.run(['vcom.exe', '-work', './work', '../arb_tb_fuzzer.vhd'])
+ls = subprocess.run(['vcom.exe', '-work', './work', '../VerifyOnQuesta/arb_design.vhd'])
 
 
 def writing_sequences (array):
@@ -84,7 +84,7 @@ with open("sequences.txt", 'w') as writing_file: # Writes all sequences to a fil
   for i in range(len(matrix)):
     writing_sequences (matrix[i])
   
-ls = subprocess.run(['/Questa/questasim/bin/vsim', '-batch', '-do', 'modelsim_command.do']) # Executes the modelsim command from modelsim_command.do (simulation, run and quit)
+ls = subprocess.run(['vsim.exe', '-batch', '-do', 'modelsim_command.do']) # Executes the modelsim command from modelsim_command.do (simulation, run and quit)
 
 with open("results.txt", 'r') as reading_file: # Reads simulation results
   results_string = reading_file.read().splitlines() 
@@ -93,9 +93,7 @@ results_int = [eval(i) for i in results_string] # Converts string to int to sort
 
 
 for i in range(len(results_int)) : # Checks if there is an overflaw in the results obtained
-    
    if results_int[i] <= MIN_WANTED:
-      
      Min = True
      Min_index = i
      break
@@ -121,7 +119,7 @@ while not(Min) and count < COUNT_MAX: # Loop until we found an overflaw or until
     writing_sequences (matrix_modified[i])
     
   # Simulates the 10 new sequences
-  ls = subprocess.run(['/Questa/questasim/bin/vsim', '-batch', '-do', 'modelsim_command.do'])
+  ls = subprocess.run(['vsim.exe', '-batch', '-do', 'modelsim_command.do'])
   
   
   with open("results.txt", 'r') as reading_file: # Reads simulation results
@@ -151,7 +149,7 @@ while not(Min) and count < COUNT_MAX: # Loop until we found an overflaw or until
 
 
 if count == COUNT_MAX:
-  print("no problem dandected")
+  print("no problem detected")
   
   
 else:
